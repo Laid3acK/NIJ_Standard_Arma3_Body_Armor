@@ -1,0 +1,92 @@
+Arma3 Body Armor
+
+descriptionShort = "Armor Level I"; armor = 8 // Example V_TacVest_khk: O_Soldier_SL_F (CSAT Squad Leader), O_soldier_M_F (CSAT Marksman)
+
+descriptionShort = "Armor Level II"; armor = 12 // Example V_TacVest_gen_F: B_GEN_Commander_F (Gendarmerie Commander), B_GEN_Soldier_F (Gendarme)
+
+descriptionShort = "Armor Level III"; armor = 16 // Example V_PlateCarrier1_rgr: B_Soldier_F (NATO Rifleman), B_soldier_M_F (NATO Marksman)
+
+descriptionShort = "Armor Level IV"; armor = 20 // Example V_PlateCarrier2_rgr: B_soldier_AR_F (NATO Autorifleman), B_soldier_LAT_F (NATO Rifleman AT)
+
+descriptionShort = "Armor Level V"; armor = 8, 24 // Example V_PlateCarrierSpec_rgr: B_medic_F (NATO Combat Saver), B_soldier_UAV_F (NATO UAV Operator)
+
+descriptionShort = "Explosive Resistant"; armor = 8, 16 // Example V_CarrierRigKBT_01_heavy_EAF_F: I_E_Soldier_GL_F (LDF Grenadier), I_E_Soldier_SL_F (LDF Squad Leader)
+
+descriptionShort = "Explosive Resistant"; armor = 8, 16, 78 // Example V_PlateCarrierGL_rgr: B_Soldier_SL_F (NATO Team Leader), B_Soldier_TL_F (NATO Squad Leader)
+
+
+
+Ballistic Resistance of Body Armor, NIJ Standard 0101.07 https://nij.ojp.gov/specification-nij-ballistic-protection-levels-and-associated-test-threats-nij-standard-012300
+
+NIJ HG1
+
+- 9mm Luger FMJ RN  bullet 8.0g 398m/s (124gr 1305ft/s): 634 Joules
+- .357 Mag JSP bullet 10.2g 436m/s (158gr 1430ft/s): 970 Joules
+
+
+NIJ HG2
+
+- 9mm Luger FMJ RN bullet 8.0g 448m/s (124gr 1470ft/s): 803 Joules
+- .44 Mag JHP bullet 15.6g 436m/s (240gr 1430ft/s): 1483 Joules
+
+
+NIJ RF1
+
+- 7.62x51mm M80 Ball NATO FMJ Steel Jacket bullet 9.6g 847m/s (147gr 2780ft/s): 3444 Joules
+- 7.62x39mm MSC Ball Ammunition Type 56 Factory 31 bullet 8.0g  732m/s (124gr 2400ft/s): 2144 Joules
+- 5.56mm M193 bullet 3.6g 990m/s (56gr 3250ft/s): 1764 Joules
+
+
+NIJ RF2
+
+- 7.62x51mm M80 Ball NATO FMJ Steel Jacket bullet 9.6g 847m/s (147gr 2780ft/s): 3444 Joules
+- 7.62x39mm MSC Ball Ammunition Type 56 Factory 31 bullet 8.0g  732m/s (124gr 2400ft/s): 2144 Joules
+- 5.56mm M193 bullet 3.6g 990m/s (56gr 3250ft/s): 1764 Joules
+- 5.56mm M855 bullet 4g 950m/s (61.8gr 3115ft/s): 1805 Joules
+
+
+NIJ RF3
+
+- 30.06 M2 AP bullet 10.8g 878m/s (165.7gr 2880ft/s): 4163 Joules
+
+
+
+Ballistic Resistance of Body Armor, NIJ Standard 0101.06 https://www.ojp.gov/pdffiles1/nij/223054.pdf#page=17
+
+Type IIA (9 mm; .40 S&W)
+
+- Type IIA new and unworn: 9 mm Full Metal Jacketed Round Nose (FMJ RN) bullet 8.0g 373m/s: 557 Joules
+- Type IIA new and unworn: .40 S&W Full Metal Jacketed (FMJ) bullet 11.7g 352m/s: 725 Joules
+
+- Type IIA conditioned: 9 mm FMJ RN bullet 8.0g 355m/s: 504 Joules
+- Type IIA conditioned: .40 S&W FMJ bullet 11.7g 325 m/s: 618 Joules
+
+
+Type II (9 mm; .357 Magnum)
+
+- Type II armor new and unworn: 9 mm FMJ RN bullet 8.0g 398m/s: 634 Joules
+- Type II armor new and unworn: .357 Magnum Jacketed Soft Point (JSP) bullet 10.2g 436m/s: 970 Joules
+
+- Type II armor conditioned: 9 mm FMJ RN bullet 8.0g 379 m/s: 575 Joules
+- Type II armor conditioned: .357 Magnum JSP bullet 10.2 g 408 m/s: 849 Joules
+
+
+Type IIIA (.357 SIG; .44 Magnum)
+
+- Type IIIA armor new and unworn: .357 SIG FMJ Flat Nose(FN) bullet 8.1g 448m/s: 813 Joules
+- Type IIIA armor new and unworn: .44 Magnum Semi Jacketed Hollow Point (SJHP) bullet 15.6g 436m/s: 1483 Joules
+
+- Type IIIA armor conditioned: .357 SIG FMJ FN bullet 8.1g 430m/s: 749 Joules
+- Type IIIA armor conditioned: .44 Magnum SJHP bullet 15.6g 408m/s: 1299 Joules
+
+
+Type III (Rifles)
+
+- Type III hard armor or plate inserts conditioned: 7.62 mm FMJ steel jacketed bullet (M80) 9.6g 847m/s: 3444 Joules
+- Type III flexible armor new: 7.62 mm FMJ steel jacketed bullet (M80) 9.6g 847m/s: 3444 Joules
+
+
+Type IV (Armor Piercing Rifle)
+
+- Type IV hard armor or plate inserts conditioned: .30 caliber armor piercing bullet (M2 AP) 10.8g 878m/s: 4163 Joules
+- Type IV flexible armor new: .30 caliber AP (M2 AP) bullet 10.8g 878m/s: 4163 Joules
